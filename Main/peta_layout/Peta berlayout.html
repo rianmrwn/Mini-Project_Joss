@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 55px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout" style="height: 580px;width: 1040px;border: 2px solid black;">
+
+        <div class="kiri"
+            style="width: 70%;height: 100%;display: flex;justify-content: center;align-items: center;float: left;">
+            <div class="peta" style="height: 90%;width: 95%;border: 2px solid black;">
+                <iframe
+                src="https://www.arcgis.com/apps/instant/basic/index.html?appid=ad18c93f4dbc448fab26e57822a92c1d&locale=en-us"
+                width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div id="map" style="height: 100%;width: 100%;">
+                </div>
+            </div>
+        </div>
+        <div class="kanan"
+            style="width: 30%;height: 100%;display: flex;justify-content: center;align-items: center;float: right;">
+            <div class="desk" style="height: 90%;width: 90%;border: 2px solid black; margin-right: 15px;">
+                <div class="judul">
+                    <h5 style="width: 100%;text-align: center;border-bottom: 2px solid black;"><b>PETA SUITABILITY
+                            CROP<br>KALIBENING</b></h5>
+                </div>
+
+                <div class="north">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Brosen_windrose.svg/300px-Brosen_windrose.svg.png"
+                        alt="arah" style="width: 30%;height: 30%;display: block;margin: auto;margin-bottom: 5px;">
+                </div>
+
+                <div class="legenda" style="border-top: 2px solid black;border-bottom: 2px solid black;">
+                    <h5 style="margin-left: 5%;">Legenda :</h5>
+                    <P style="margin-left: 5%;font-size: 13px;"><u>Nilai Klasifikasi</u></P>
+                    <div class="legen">
+                        <img src="Screenshot_1.png" alt="Logo"
+                            style="height: 58%;width: 58%;display: block;margin-left: 10%;margin-bottom: 5px;">
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <img src="IYE.png" alt="Logo"
+                        style="height: 25%;width: 25%;display: block;margin: auto;margin-top: 3%;">
+                </div>
+
+                <div class="profil">
+                    <h6 style="width: 100%;text-align: center;margin-top: 1%;">Rian Mirawan</h6>
+                    <h6 style="width: 100%;text-align: center;"><I>21/482062/SV/19893</I></h6>
+                    <p style="text-align: center;border-top: 2px solid black;font-size: 12px;"><b>Teknologi Survei dan
+                            Pemetaan
+                            Dasar<br>Sekolah Vokasi<br>Universitas Gadjah Mada</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+    <script src="js/qgis2web_expressions.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.rotatedMarker.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/rbush.min.js"></script>
+    <script src="js/labelgun.min.js"></script>
+    <script src="js/labels.js"></script>
+    <script src="data/HanyaJATENG_1.js"></script>
+
+    <script></script>
+</body>
+
+</html>
